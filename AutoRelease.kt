@@ -39,5 +39,4 @@ class AutoReleasedProperty<T : Any>(lifecycleOwner: LifecycleOwner) :
     override fun setValue(thisRef: Any, property: KProperty<*>, value: T) {
         internalValue = value
     }
-
 }
